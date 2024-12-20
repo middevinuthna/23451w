@@ -1,0 +1,57 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #c75289;
+}
+
+.box {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgb(200, 236, 253);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(248, 91, 214, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #a6fca3;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(238, 138, 138, 0.5);
+  color: rgb(250, 202, 202);
+  padding: 10px;
+  text-align: center;
+}
